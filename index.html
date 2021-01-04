@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" />
+<title>Document</title>
+<style>
+ul.jokes {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+ul.jokes li {
+padding: 20px;
+background-color: #ee6e73;
+line-height: normal;
+font-size: inherit;
+font-weight: 400;
+position: relative;
+cursor: pointer;
+display: block;
+overflow: hidden;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-webkit-tap-highlight-color: transparent;
+vertical-align: middle;
+z-index: 1;
+-webkit-transition: .3s ease-out;
+transition: .3s ease-out;
+color: #fff;
+-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h2>chuck norris Jokes Genretor </h2>
+
+<form>
+<div>
+<label for="number">Number of jokes</label>
+<input type="number" id="number">
+
+</div>
+<div>
+<button class="get-jokes">Get Jokes</button>
+
+
+</div>
+
+
+
+</form>
+<ul class="jokes"></ul>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
